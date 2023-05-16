@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon-16x16.png">
+    <title>Pokedex</title>
+</head>
+<body>
+   <main>
+      <img src="/images/pokedex.png" class="pokedex">
+      <img src="#" class="pokemonImg">
+         
+      <h1 class="dados">
+         <span class="numberPokemon"></span><span class="divider"> -</span> <span class="namePokemon"></span> 
+      </h1>
+      <h2 class="pokemonType">
+           <span class="tid">Types: </span> <span class="type"></span>
+      </h2>
+      <form class="form">
+         <input type="search" name="srcpokemon" placeholder="Name or Number" size="30" required class="srcpokemon">
+      </form>
+      
+      <button type="button" name="prevButton" class="b1">
+         &lt; Prev
+      </button>
+      <button type="button" name="nextButton" class="b2">
+         Next &gt;
+      </button>
+
+      <div class="red-light"></div>
+      <div class="red-animated"></div>
+      <div class="yellow-light"></div>
+      <div class="yellow-animated"></div>
+      <div class="green-light"></div>
+      <div class="green-animated"></div>
+      <div class="small-red-1"></div>
+      <div class="small-red-1-animated"></div>
+      <div class="small-red-2"></div>
+      <audio src="sounds/pokemon-a-button.mp3" class="Plink"></audio>     
+   </main>
+   <script src="script.js"></script>
+</body>
+</html>
